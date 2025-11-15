@@ -346,3 +346,10 @@ MIT License - feel free to use this project for your own portfolio!
 **Built with ❤️ with Technology**
 
 © 2025 Lakshman Patel. All rights reserved.
+
+## 🚀 CI/CD Pipeline Active
+
+Automatic deployments enabled:
+- Push to `main` → Production deployment
+- Push to `develop` → Preview deployment
+- Pull requests → PR preview deployments
