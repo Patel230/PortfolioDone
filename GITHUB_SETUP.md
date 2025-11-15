@@ -28,7 +28,7 @@ git commit -m "Initial commit: Premium 3D Portfolio with glassmorphism theme"
 ### Option A: Via GitHub Website
 
 1. Go to [github.com/new](https://github.com/new)
-2. Repository name: `portfolio` (or any name you prefer)
+2. Repository name: `PortfolioDone`
 3. Description: `Premium 3D Portfolio Website - Python Backend Developer`
 4. Choose **Public** or **Private**
 5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
@@ -37,7 +37,7 @@ git commit -m "Initial commit: Premium 3D Portfolio with glassmorphism theme"
 ### Option B: Via GitHub CLI (if installed)
 
 ```bash
-gh repo create portfolio --public --source=. --remote=origin --push
+gh repo create PortfolioDone --public --source=. --remote=origin --push
 ```
 
 ## Step 3: Connect Local Repository to GitHub
@@ -45,8 +45,8 @@ gh repo create portfolio --public --source=. --remote=origin --push
 After creating the repository on GitHub, run:
 
 ```bash
-# Add remote origin (replace 'Patel230' with your GitHub username)
-git remote add origin https://github.com/Patel230/portfolio.git
+# Add remote origin
+git remote add origin https://github.com/Patel230/PortfolioDone.git
 
 # Verify remote
 git remote -v
@@ -58,7 +58,7 @@ git push -u origin main
 
 ## Step 4: Verify Upload
 
-Visit your repository: `https://github.com/Patel230/portfolio`
+Visit your repository: `https://github.com/Patel230/PortfolioDone`
 
 You should see all your files including:
 - ✅ README.md
@@ -191,7 +191,7 @@ next-env.d.ts
 
 ```bash
 # Use HTTPS instead
-git remote set-url origin https://github.com/Patel230/portfolio.git
+git remote set-url origin https://github.com/Patel230/PortfolioDone.git
 ```
 
 ### Issue: "Updates were rejected"
@@ -263,13 +263,13 @@ After pushing to GitHub:
 # Navigate to project
 cd /Users/lakshmanpatel/Desktop/ProjectAlpha/PortfolioDone
 
-# Initialize and commit
-git init
-git add .
-git commit -m "Initial commit: Premium 3D Portfolio"
+# Initialize and commit (ALREADY DONE!)
+# git init
+# git add .
+# git commit -m "Initial commit: Premium 3D Portfolio"
 
-# Connect to GitHub (replace with your repo URL)
-git remote add origin https://github.com/Patel230/portfolio.git
+# Connect to GitHub
+git remote add origin https://github.com/Patel230/PortfolioDone.git
 git branch -M main
 git push -u origin main
 ```

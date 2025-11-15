@@ -65,8 +65,8 @@ A stunning, scroll-based 3D portfolio website featuring glassmorphism design, pr
 
 ```bash
 # Clone the repository
-git clone https://github.com/Patel230/portfolio.git
-cd portfolio
+git clone https://github.com/Patel230/PortfolioDone.git
+cd PortfolioDone
 
 # Install dependencies
 npm install
